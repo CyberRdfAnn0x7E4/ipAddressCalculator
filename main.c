@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 void readAddress(unsigned int *address){
-    int unsigned i = 0;
-    int unsigned octet;
+    int unsigned i = 0, octet;
     *address = 0;
 
     while(++i < 5){
