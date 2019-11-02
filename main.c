@@ -82,5 +82,6 @@ int main()
     }while(input != 'x' && input != 'X');
 
     printf("\nBye!\n\n");
+    
     return 0;
 }
